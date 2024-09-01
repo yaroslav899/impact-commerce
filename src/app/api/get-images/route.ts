@@ -1,6 +1,8 @@
 import { NextResponse, NextRequest } from 'next/server';
 import PicturesMgr from '@backend/pictures/PicturesMgr';
 
+export const dynamic = 'force-static';
+
 // Implementation to get random pictures by query data. small AI :)
 export async function GET(req: NextRequest) {
     try {
