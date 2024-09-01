@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Application information
+- Main Page:
+- - List all categories and Display the category name for each category.
+- - Enable navigation to the category page by clicking on a category.
+- - Enable navigation to the Cart Page by clicking on a basket icon in the right top corner of the page.
+- Category Page:
+- - Display the category name and the product count for the selected category.
+- - List products specific to the selected category.
+- - Display the product title, price, and image (if available).
+- - Enable navigation to the main page.
+- - Allow user to add a product to the user’s cart
+- - Enable navigation to the Cart Page by clicking on a basket icon in the right top corner of the page.
+- Cart Page:
+- - Display information available for all products in the cart.
+- - Display information about total price of products added to the cart.
+- - Allow user to remove a product from the cart and change quantity of a product added to the cart.
+## Node version
+
+```bash
+node: v20.15.1
+npm: 10.8.2
+```
 
 ## Getting Started
 
-First, run the development server:
+First, install node modules:
+
+```bash
+npm i
+```
+
+Secondly, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +43,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Addition information: Resources
+- Fake Store API - Application uses available data from this API - https://fakestoreapi.com/docs
+- Pixabay - API service for getting images by query. It uses for getting category images -  https://pixabay.com/api/docs/

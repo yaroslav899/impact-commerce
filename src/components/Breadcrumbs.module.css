@@ -1,0 +1,28 @@
+.breadcrumbs {
+    margin-bottom: 1rem;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumbs li {
+    margin-right: 0.5rem;
+}
+
+.breadcrumbs li:not(:first-child)::before {
+    content: '>';
+    margin-right: 0.5rem;
+    color: #555;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #0070f3;
+}
+
+.breadcrumbs .current {
+    color: #555;
+}

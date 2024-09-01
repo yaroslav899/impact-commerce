@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,37 @@
+.cartItem {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.productImage {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.productDetails {
+    flex: 1;
+}
+
+.quantityControl {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.quantityControl button {
+    width: 30px;
+    height: 30px;
+}
+
+.removeButton {
+    margin-top: 10px;
+    cursor: pointer;
+}
